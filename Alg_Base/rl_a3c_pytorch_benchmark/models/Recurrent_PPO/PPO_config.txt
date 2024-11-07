@@ -1,0 +1,19 @@
+tensorboard --logdir PPO_logs
+
+
+envconfig
+"Simulation_Mode": "train",
+"Train_Total_Steps": 3000,
+"reward_mode": "continuous",
+"height_random": true,
+"direction_random": true,
+"max_rou_distance": 1000,
+"min_rou_distance": 200,
+"route_num": 200
+
+
+先抓取
+git stash
+git pull
+git stash pop
+

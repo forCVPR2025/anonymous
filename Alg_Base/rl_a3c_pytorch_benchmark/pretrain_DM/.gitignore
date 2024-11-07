@@ -1,0 +1,7 @@
+__pycache__/
+OriginDataset/*/
+OriginDataset/*.json
+DynamicsDataset/*/
+runs/*.0
+runs/*.1
+*.pth
