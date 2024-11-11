@@ -245,7 +245,7 @@ if __name__ == "__main__":
     parse.add_argument(
         "-m",
         "--map",
-        default="simpleway-grass_day.wbt",
+        default="citystreet-day.wbt",
         type=str,
         metavar="",
         help="the filename of map, default: citystreet-day.wbt",

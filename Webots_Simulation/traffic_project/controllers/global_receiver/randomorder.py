@@ -152,7 +152,7 @@ def sumo_rou_random_os(folder_path, _numPerGroup, _sys, _configData):
 
 if __name__ == "__main__":
     
-    file_path = '/home/zxl/Documents/WebotsPro/webots_autodriving_drone/traffic_project_bridge/worlds/la3clean_net/sumo.rou.xml'
+    file_path = '~/Documents/WebotsPro/webots_autodriving_drone/traffic_project_bridge/worlds/la3clean_net/sumo.rou.xml'
     tree, root = read_xml(file_path)
 
     count,attribute_list = collect_xml(root=root,tag="route",attribute="edges")

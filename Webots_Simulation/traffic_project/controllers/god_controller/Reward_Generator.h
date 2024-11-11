@@ -23,7 +23,7 @@ public:
   void setTrackingCar(string _carDef);
   double getReward(string _trackingObj, string _run_mode, string _reward_mode, string _reward_type, double trackWidth = -1, double trackHeight = -1);
   void checkCarDirection(double stop_threshold, double turn_threshold);
-  uint8_t isTrackingCarDisp = 0; // 标志初始态
+  uint8_t isTrackingCarDisp = 0; 
   usrPublic::rewardData makeReward = {};
   string droneDef;
   string carDef = "ORIGIN";

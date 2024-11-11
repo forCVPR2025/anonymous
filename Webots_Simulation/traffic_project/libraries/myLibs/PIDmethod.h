@@ -35,7 +35,7 @@ public:
 
 };
 
-/*PID方法类*/
+
 class PIDmethod : public PIDtimer
 {
 public:
@@ -44,12 +44,12 @@ public:
     void PID_Init(Params_Mode mode, double _timeStep = 0);
 
     void Params_Config(Fit_Params _fun_p, Fit_Params _fun_i, Fit_Params _fun_d, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());
-    void Params_Config(Fit_Params _fun_p, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());//纯p
-    void Params_Config(PID_Mode mode, Fit_Params _fun_p, Fit_Params _fun_id, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());//pi或pd控制
+    void Params_Config(Fit_Params _fun_p, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());
+    void Params_Config(PID_Mode mode, Fit_Params _fun_p, Fit_Params _fun_id, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());
 
     void Params_Config(double _kp, double _ki, double _kd, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());
-    void Params_Config(double _kp, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());//纯p
-    void Params_Config(PID_Mode mode, double _kp, double _kid, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());//pi或pd控制
+    void Params_Config(double _kp, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());
+    void Params_Config(PID_Mode mode, double _kp, double _kid, double _I_Term_Max, double _Output_Max, double _Output_Min = numeric_limits<double>::max());
 
     double Adjust(double _x);
     double Adjust(double _x, double extern_d);

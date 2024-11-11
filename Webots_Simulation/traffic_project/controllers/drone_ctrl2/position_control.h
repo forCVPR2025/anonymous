@@ -30,7 +30,6 @@ public:
   bool done = false;
   std::string done_state = "none";
 private:
-  // 状态量定义
   double des_yaw_;
   Eigen::Vector3d des_pos_;
   Eigen::Vector3d des_vel_;

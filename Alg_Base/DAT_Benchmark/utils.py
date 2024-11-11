@@ -71,7 +71,6 @@ def clip_to_range(x, min_value=0, max_value=1):
         reward = A - (sqrt((x-d)^2+y^2)/c+lambda|w-w_0|)
 """
 def get_E2E_reward(x:float,y:float,w:float,d_curr:float,Fov:float)->float:
-    ## Hyperparams(Need to be determined after test)
     A = 1
     c = 9
     lamb = 2/Fov

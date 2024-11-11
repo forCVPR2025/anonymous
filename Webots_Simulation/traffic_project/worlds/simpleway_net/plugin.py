@@ -41,8 +41,8 @@ class SumoSupervisorPlugin:
                 start_node = edge.getFromNode()
                 end_node = edge.getToNode()
                 # get coordinaries
-                start_coords = start_node.getCoord()  # 返回 (x, y, z)
-                end_coords = end_node.getCoord()      # 返回 (x, y, z)
+                start_coords = start_node.getCoord()  # (x, y, z)
+                end_coords = end_node.getCoord()      # (x, y, z)
                 self.path_start_end.append((edge.getID(), start_coords, end_coords))
             # print relative informations
             for edge_id, start_coords, end_coords in self.path_start_end:

@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
   {
     std::string ballprotoString = "DEF LocationBall" + std::to_string(i + 1) + " trajectary {translation " + std::to_string(0+i) + " " + std::to_string(0+i) + " " + std::to_string(0) + "}";
     std::cout << ballprotoString << std::endl;
-    robot->getRoot()->getField("children")->importMFNodeFromString(-1, ballprotoString); // 导入坐标球
+    robot->getRoot()->getField("children")->importMFNodeFromString(-1, ballprotoString);
     std::cout << "ok" + std::to_string(i + 1) << std::endl;
   }
 

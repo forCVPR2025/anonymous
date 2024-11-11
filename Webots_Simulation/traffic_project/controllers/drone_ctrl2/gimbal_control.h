@@ -76,7 +76,6 @@ void GimbalControl::updateConstrain(double* p){
     angle_constrain(2, 1) = p[5];
 }
 
-// 析构函数
 GimbalControl::~GimbalControl() {}
 
 /**

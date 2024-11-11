@@ -1,13 +1,3 @@
-'''
-Author: lu 2231625449@qq.com
-Date: 2024-04-28 14:45:03
-LastEditors: lu 2231625449@qq.com
-LastEditTime: 2024-08-30 18:10:03
-FilePath: /UAV_Follow_Env/Webots_Simulation/traffic_project/controllers/SUMOGod/SUMOGod.py
-Description: 
-
-Copyright (c) 2024 by ${git_name_email}, All Rights Reserved. 
-'''
 """SUMOGod controller."""
 
 from controller import Supervisor

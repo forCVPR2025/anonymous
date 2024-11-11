@@ -80,7 +80,7 @@ def test(args, shared_model, env_conf,read_num_test:bool=True,load_path:str=None
     if not read_num_test:
         player.model.load_state_dict(torch.load(load_path))
         print(f"Loading State dict: {load_path}")
-        filename = os.path.basename(load_path)  # 获取文件名 CityStreet-d.dat
+        filename = os.path.basename(load_path)  
         filename_without_ext = os.path.splitext(filename)[0]
     try:
         while 1:

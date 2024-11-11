@@ -11,8 +11,8 @@
 
 using namespace std;
 
-// void Exel_Output(string name, std::ios_base::openmode my_mode, float a[], int j, string discription); //向文件写入数组数据
-// void file_create(string name, std::ios_base::openmode my_mode);//建立文件
+// void Exel_Output(string name, std::ios_base::openmode my_mode, float a[], int j, string discription); 
+// void file_create(string name, std::ios_base::openmode my_mode);
 
 
 void Exel_Output(string name,std::ios_base::openmode my_mode,float a[],int j,string discription)

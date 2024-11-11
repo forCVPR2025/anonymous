@@ -22,7 +22,7 @@ private:
     Eigen::Transform<double, 3, Eigen::Affine> transform;
     Eigen::Matrix3d rotation;
     usrPublic::Odometry state;
-    double state_period; // 控制周期
+    double state_period; 
     double linear_speed[3] = {0};
     SecondOrderButterworthLPF tracking_f[4];
 
