@@ -1,4 +1,4 @@
-# DART: the Drone Active Reinforcement Tracking benchmark
+# An Open-World Cross-Scene Benchmark for Drone Visual Active Tracking
 [![Software License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Document-en](https://img.shields.io/badge/doc-guide-blue)](document/_build/en/index.html)
 [![Document-zh](https://img.shields.io/badge/文档-指引-blue)](document/_build/zh/index.html)
@@ -12,8 +12,8 @@ Due to the challenges of dealing with high-dynamic visual targets and complex en
 
 ## Citing
 ```bibtex
-@article{xxx,
-  title={DART: the Drone Active Reinforcement Tracking benchmark},
+@article{,
+  title={An Open-World Cross-Scene Benchmark for Drone Visual Active Tracking},
   author={},
   journal={},
   year={},
