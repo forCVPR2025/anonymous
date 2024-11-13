@@ -1,4 +1,4 @@
-# An Open-World Cross-Scene Benchmark for Drone Visual Active Tracking
+# A Unified Cross-Scene Cross-Domain Benchmark for Open-World Drone Active Tracking
 [![Software License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Document-en](https://img.shields.io/badge/doc-guide-blue)](https://forcvpr2025.github.io/anonymous/)
 [![Document-zh](https://img.shields.io/badge/文档-指引-blue)](https://forcvpr2025.github.io/anonymous/zh/index.html)
