@@ -359,10 +359,10 @@ if __name__ == "__main__":
     parse.add_argument(
         "-params",
         "--savepath",
-        default="params.pth",
+        default="./models/R_VAT/params.pth",
         type=str,
         metavar="",
-        help="model parameter filename, default: params.pth",
+        help="model parameter filename, default: ./models/R_VAT/params.pth",
     )
     parse.add_argument(
         "-m",
