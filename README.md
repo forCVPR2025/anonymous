@@ -1,4 +1,4 @@
-# A Unified Cross-Scene Cross-Domain Benchmark for Open-World Drone Active Tracking
+# A Cross-Scene Benchmark for Open-World Drone Active Tracking
 [![Software License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Document-en](https://img.shields.io/badge/doc-guide-blue)](https://forcvpr2025.github.io/anonymous/)
 [![Document-zh](https://img.shields.io/badge/文档-指引-blue)](https://forcvpr2025.github.io/anonymous/zh/index.html)
@@ -13,7 +13,7 @@ Drone Visual Active Tracking aims to autonomously follow a target object by cont
 ## Citing
 ```bibtex
 @article{ ,
-  title={A Unified Cross-Scene Cross-Domain Benchmark for Open-World Drone Active Tracking},
+  title={A Cross-Scene Benchmark for Open-World Drone Active Tracking},
   author={},
   journal={},
   year={},
